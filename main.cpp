@@ -58,6 +58,7 @@ void DiffManchesterEncoding(const string &code) {
 
 void ManchesterDecoding(const string &code){
   cout << "Manchester Decoding" << '\n';
+  cout << code << '\n';
   unsigned long len = code.length();
   for (int i = 0; i < len; i += 7) {
     if(code[i] == '|'){
@@ -75,6 +76,7 @@ void ManchesterDecoding(const string &code){
 
 void DiffManchesterDecoding(const string &code){
   cout << "Differential Manchester Decoding" << '\n';
+  cout << code << '\n';
   unsigned long len = code.length();
   for (int i = 0; i < len;) {
     if(code[i] == '|'){
@@ -97,7 +99,6 @@ int main(){
   DiffManchesterEncoding(code);
 
   string code1 = "⎺|⎽⎽|⎺|⎽|⎺⎺|⎽|⎺|⎽|⎺|⎽⎽|⎺⎺|⎽⎽|⎺|⎽|⎺⎺|⎽⎽|⎺⎺|⎽⎽|⎺|⎽|⎺⎺|⎽|⎺|⎽⎽|⎺|⎽|⎺|⎽|⎺";
-//  string code1 = "⎽|⎺";
   string code2 = "|⎺|⎽⎽|⎺⎺|⎽|⎺|⎽|⎺|⎽|⎺|⎽⎽|⎺|⎽|⎺⎺|⎽⎽|⎺|⎽|⎺⎺|⎽|⎺|⎽⎽|⎺⎺|⎽|⎺|⎽|⎺|⎽⎽|⎺⎺|⎽⎽|⎺";
   ManchesterDecoding(code1);
   DiffManchesterDecoding(code2);
