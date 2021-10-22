@@ -1,0 +1,3 @@
+/Users/kylianlee/CLionProjects/Manchester_Encoding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kylianlee/CLionProjects/Manchester_Encoding/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kylianlee/CLionProjects/Manchester_Encoding/cmake-build-debug/CMakeFiles/Manchester_Encoding.dir
